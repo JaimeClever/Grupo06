@@ -8,6 +8,9 @@ public class Usuario {
     private String telefono;
     private String direccion;
 
+    // Constructor por defecto
+    public Usuario() {
+    }
     public Usuario(String id, String nombre, String apellido, String email, String telefono, String direccion) {
         this.id = id;
         this.nombre = nombre;
