@@ -7,6 +7,7 @@ public class Usuario {
     private String email;
     private String telefono;
     private String direccion;
+    private int numeroCompras;
 
     // Constructor por defecto
     public Usuario() {
